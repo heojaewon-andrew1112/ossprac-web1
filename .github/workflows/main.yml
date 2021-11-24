@@ -2,7 +2,7 @@ name: Docker CI/CD
 
 on:
   push:
-    branches: [ maSTER ]
+    branches: [ master ]
 
 env:
   DOCKER_IMAGE: ghcr.io/${{ github.actor }}/ossp_flaskapp    #생성할 이미지 명
